@@ -1,9 +1,10 @@
 package com.bala.excelgen.model;
 
-
 import javax.persistence.*;
 import java.io.Serializable;
-
+/**
+ * Created by Balaji on 1/10/2017.
+ */
 @Entity
 @Table(name="t_plant")
 @NamedQuery(name="Plant.findAll",query="SELECT c FROM Plant c")
@@ -21,6 +22,13 @@ public class Plant implements Serializable{
   private String category;
 @Column(name="PRICE")
   private Long price;
+
+  public Plant(String name, String type, String category, Long price) {
+    this.name = name;
+    this.type = type;
+    this.category = category;
+    this.price = price;
+  }
 
   public Long getId() {
     return id;
