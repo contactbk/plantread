@@ -44,4 +44,12 @@ public class PlantsServiceImpl implements  PlantsService{
         }
         return msg;
     }
+
+
+    @Override
+    public String createNewPlant(String ){
+
+
+        return null;
+    }
 }

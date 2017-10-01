@@ -6,5 +6,6 @@ package com.bala.agri.service;
 public interface PlantsService {
 
     public String getAllPlants();
+    public String createNewPlant();
 
 }
