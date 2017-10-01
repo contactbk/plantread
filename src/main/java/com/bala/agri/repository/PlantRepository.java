@@ -1,6 +1,6 @@
 package com.bala.agri.repository;
 
-import com.bala.agri.model.Plant;
+import com.bala.agri.domain.Plant;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

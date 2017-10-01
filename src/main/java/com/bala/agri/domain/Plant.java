@@ -1,4 +1,4 @@
-package com.bala.agri.model;
+package com.bala.agri.domain;
 
 import javax.persistence.*;
 import java.io.Serializable;
