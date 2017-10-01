@@ -1,4 +1,4 @@
-package com.bala.excelgen.model;
+package com.bala.agri.model;
 
 import javax.persistence.*;
 import java.io.Serializable;

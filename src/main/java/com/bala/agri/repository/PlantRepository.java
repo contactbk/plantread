@@ -1,6 +1,6 @@
-package com.bala.excelgen.repository;
+package com.bala.agri.repository;
 
-import com.bala.excelgen.model.Plant;
+import com.bala.agri.model.Plant;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.bala.excelgen.repository;
+package com.bala.agri.repository;
 
 import org.springframework.data.repository.NoRepositoryBean;
 import org.springframework.data.repository.Repository;
